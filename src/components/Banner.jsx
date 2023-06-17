@@ -8,6 +8,7 @@ import googlePlayStore from "../../public/icons/goolePlayStore.svg"
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Marquee from 'react-fast-marquee';
 
 
 const Banner = () => {
