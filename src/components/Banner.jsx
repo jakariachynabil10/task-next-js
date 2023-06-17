@@ -1,15 +1,28 @@
 'use client'
 
 import Image from 'next/image';
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import image2 from "../../public/image/image2.png"
 import googlePlayStore from "../../public/icons/goolePlayStore.svg"
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
 const Banner = () => {
+    useEffect(() => {
+        AOS.init({
+          duration: 1000,
+        });
+      }, []);
+    
+
+
     return (
       <>
-        <div className=' relative flex  items-center  bg-[#007aff] bg-opacity-10 mt-20 p-9'>
+        <div data-aos="fade-up"
+     data-aos-duration="1000" className=' relative flex  items-center  bg-[#007aff] bg-opacity-10 mt-20 p-9'>
             <div className=''>
             <h1 className='font-bold text-4xl text-black tracking-wide leading-tight mb-4 '>
           Become a Financial <br /> Advisor and{' '}
