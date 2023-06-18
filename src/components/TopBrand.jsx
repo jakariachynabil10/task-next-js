@@ -19,22 +19,22 @@ const TopBrand = () => {
       <div className="my-10">
       <Marquee play={true} speed={70}>
         <div className="border rounded-xl flex items-center justify-center py-3 px-8 mx-5">
-          <Image height={40} src={Icici}></Image>
+          <Image alt="" height={40} src={Icici}></Image>
         </div>
         <div className="border rounded-xl h-[70px] py-3 px-8 mx-5 flex items-center justify-center">
-          <Image height={40} src={Amex}></Image>
+          <Image alt="" height={40} src={Amex}></Image>
         </div>
         <div className="border rounded-xl h-[70px] py-3 px-8 mx-5 flex items-center justify-center">
-          <Image height={40} src={Aufin}></Image>
+          <Image alt="" height={40} src={Aufin}></Image>
         </div>
         <div className="border rounded-xl h-[70px] py-3 px-8 mx-5 flex items-center justify-center">
-          <Image height={40} src={Axis}></Image>
+          <Image alt="" height={40} src={Axis}></Image>
         </div>
         <div className="border rounded-xl h-[70px] py-3 px-8 mx-5 flex items-center justify-center">
-          <Image height={40} src={BOB}></Image>
+          <Image alt="" height={40} src={BOB}></Image>
         </div>
         <div className="border rounded-xl h-[70px] py-3 px-8 mx-5 flex items-center justify-center">
-          <Image height={40} src={YesBank}></Image>
+          <Image alt="" height={40} src={YesBank}></Image>
         </div>
       </Marquee>
       </div>

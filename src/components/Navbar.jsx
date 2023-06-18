@@ -15,7 +15,15 @@ const Navbar = () => {
     },
     {
       path : '/about',
-      title : 'About'
+      title : 'About Us'
+    },
+    {
+      path : '/partnerWithUs',
+      title : 'Partner With US'
+    },
+    {
+      path : '/blog',
+      title : 'Blog'
     },
   ]
 
@@ -55,7 +63,7 @@ const Navbar = () => {
             </ul>
           </div>
           <Link href='/'>
-          <Image src={logo} width={100} ></Image>
+          <Image alt="" src={logo} width={100} ></Image>
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -67,8 +75,8 @@ const Navbar = () => {
            }
           </ul>
         </div>
-        <div className="navbar-end">
-          <a className="btn">Button</a>
+        <div className="">
+          <a className="btn btn-primary">Download ZET</a>
         </div>
       </div>
     </>
