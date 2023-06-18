@@ -15,10 +15,10 @@ const ProductOnZet = () => {
         We are trusted by best brand in the country
       </p>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 items-center  px-10 mt-10">
-  <div className="lg:flex items-center hover:scale-105 transition-transform duration-300 w-full lg:w-[489px] lg:md:h-[181px] my-5 shadow-xl">
+  <div className="lg:flex items-center hover:scale-105 transition-transform duration-300 w-full lg:w-[489px] lg:md:h-[181px] my-5 shadow-xl bg-[#edffec] hover:bg-white ">
     <figure>
       {/* <img src={cc} alt="CREDIT CARDS" /> */}
-      <Image alt="CREDIT CARDS" src={cc}></Image>
+      <Image alt="CREDIT CARDS" className="grayscale hover:grayscale-0" src={cc}></Image>
     </figure>
     <div className="card-body">
       <h2 className="card-title">CREDIT CARDS</h2>
@@ -26,10 +26,10 @@ const ProductOnZet = () => {
     </div>
   </div>
 
-  <div className="lg:flex items-center hover:scale-105 transition-transform duration-300 w-full lg:w-[489px] lg:md:h-[181px] shadow-xl">
+  <div className="lg:flex items-center hover:scale-105 transition-transform duration-300 w-full lg:w-[489px] lg:md:h-[181px] shadow-xl bg-[#fff1ca] hover:bg-white">
     <figure>
       {/* <img src={Loan} alt="Loan" /> */}
-      <Image alt="LOANS" src={Loan}></Image>
+      <Image alt="LOANS" className="grayscale hover:grayscale-0" src={Loan}></Image>
     </figure>
     <div className="card-body">
       <h2 className="card-title">LOANS</h2>
@@ -37,10 +37,10 @@ const ProductOnZet = () => {
     </div>
   </div>
 
-  <div className="lg:flex items-center hover:scale-105 transition-transform duration-300 w-full lg:w-[489px] lg:md:h-[181px] shadow-xl">
+  <div className="lg:flex items-center hover:scale-105 transition-transform duration-300 w-full lg:w-[489px] lg:md:h-[181px] shadow-xl bg-[#ffeee7] hover:bg-white">
     <figure>
       {/* <img src={BNPL} alt="BUY NOW PAY LATER" /> */}
-      <Image src={BNPL} alt="BUY NOW PAY LATER"></Image>
+      <Image src={BNPL} className="grayscale hover:grayscale-0" alt="BUY NOW PAY LATER"></Image>
     </figure>
     <div className="card-body">
       <h2 className="card-title">BUY NOW PAY LATER</h2>
@@ -48,10 +48,10 @@ const ProductOnZet = () => {
     </div>
   </div>
 
-  <div className=" lg:flex items-center hover:scale-105 transition-transform duration-300 w-full lg:w-[489px] lg:md:h-[181px] shadow-xl">
+  <div className=" lg:flex items-center hover:scale-105 transition-transform duration-300 w-full lg:w-[489px] lg:md:h-[181px] shadow-xl bg-[#fff5e7] hover:bg-white">
     <figure>
       {/* <img src={accountSave} alt="SAVING ACCOUNTS" /> */}
-      <Image src={accountSave} alt="SAVING ACCOUNTS"></Image>
+      <Image src={accountSave} className="grayscale hover:grayscale-0" alt="SAVING ACCOUNTS"></Image>
     </figure>
     <div className="card-body">
       <h2 className="card-title">SAVING ACCOUNTS</h2>
